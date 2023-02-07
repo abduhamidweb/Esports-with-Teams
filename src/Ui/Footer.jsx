@@ -23,19 +23,19 @@ const Footer = () => {
 
               <div className="footer-links">
                 <a href="#">
-                  <i class="bi bi-facebook"></i>
+                  <i className="bi bi-facebook"></i>
                 </a>
                 <a href="#">
-                  <i class="bi bi-youtube"></i>
+                  <i className="bi bi-youtube"></i>
                 </a>
                 <a href="#">
-                  <i class="bi bi-twitter"></i>
+                  <i className="bi bi-twitter"></i>
                 </a>
                 <a href="#">
-                  <i class="bi bi-linkedin"></i>
+                  <i className="bi bi-linkedin"></i>
                 </a>
                 <a href="#">
-                  <i class="bi bi-instagram"></i>
+                  <i className="bi bi-instagram"></i>
                 </a>
               </div>
             </div>
@@ -141,7 +141,7 @@ const Footer = () => {
                 <li className="footer-item">
                   <div className="footer-location">
                     <span>
-                      <i class="bi bi-geo-alt"></i>
+                      <i className="bi bi-geo-alt"></i>
                     </span>
                     <a href="#">
                       Address Line 1, Address Line 2, Lucknow, India - 226028
@@ -151,7 +151,7 @@ const Footer = () => {
                 <li className="footer-item">
                   <div className="footer-call">
                     <span>
-                      <i class="bi bi-telephone"></i>
+                      <i className="bi bi-telephone"></i>
                     </span>
                     <a href="#">+91 5224527336</a>
                   </div>
@@ -159,7 +159,7 @@ const Footer = () => {
                 <li className="footer-item">
                   <div className="footer-mail">
                     <span>
-                      <i class="bi bi-envelope"></i>
+                      <i className="bi bi-envelope"></i>
                     </span>
                     <a href="#">fourangerygod@gmail.com</a>
                   </div>
@@ -173,8 +173,6 @@ const Footer = () => {
   );
 };
 
-// location
-//  telefon
-//  mail
+
 
 export default Footer;
