@@ -1,0 +1,73 @@
+.ea{
+min-height: 90vh;
+}
+.logoTitle {
+  font-weight: 700;
+  font-size: 28.6386px;
+  line-height: 29px;
+  color: #000000;
+}
+.infoWrapp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftLogo {
+  max-width: 300px;
+  width: 100%;
+}
+.rightBtn {
+  max-width: 630px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.EACardsWrapp{
+    margin-top: 152px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.textInfoWrapp{
+max-width: 1000px;
+width: 100%;
+margin: auto;
+text-align: center;
+}
+.bottomInfoText{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0924px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 50px 0 50px 0;
+}
+.arrowImg{
+transition: all 0.4s ease;
+}
+.arrowImg:hover{
+transform: translateY(10px);
+}
+
+@media only screen and (max-width:992px){
+    .infoWrapp{
+    flex-direction: column;
+    }
+    .EACardsWrapp{
+    justify-content: space-evenly;
+    }
+}
+@media only screen and (max-width:597px){
+.rightBtn{
+    justify-content: space-evenly;
+
+}
+.EACardsWrapp{
+margin-top: 60px;
+}
+}

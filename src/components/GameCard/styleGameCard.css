@@ -1,0 +1,21 @@
+.gameCard{
+    width: 243px;
+    height: 518px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+.gameCardImages{
+    filter: grayscale(10%);
+    transition: all 0.4s ease;
+}
+.gameCard:hover .gameCardImages{
+transform: scale(1.1, 1.1);
+filter: contrast(116%);
+}
+
+@media only screen and (max-width:992px){
+
+.gameCard{
+margin: 15px 0 15px 0;
+}
+}
