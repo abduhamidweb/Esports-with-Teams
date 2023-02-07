@@ -1,22 +1,22 @@
-import React from 'react';
+import React from "react";
 
 const Esports = () => {
-    return (
-        <>
-         <h2>Esports</h2> 
-
-<section>
-<div className='container'>
+  return (
+    <>
     
-    </div>
 
-</section>
+      <section>
+        <div className="container"><h2>Esports</h2>
+        
+        
+        
+        </div>
 
 
 
-
-        </>
-    );
+      </section>
+    </>
+  );
 };
 
 export default Esports;
