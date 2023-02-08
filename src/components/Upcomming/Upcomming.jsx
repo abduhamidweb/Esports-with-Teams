@@ -8,6 +8,10 @@ import w3 from '../../images/w3.png'
 import w4 from '../../images/w4.png'
 import w5 from '../../images/w5.png'
 import w6 from '../../images/w6.png'
+import 'swiper/css'
+import 'swiper/css/pagination'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Pagination } from 'swiper'
 const Upcomming = () => {
   return (
     <>
@@ -79,6 +83,36 @@ const Upcomming = () => {
                 <div className='col-lg-4 col-md-6 col-sm-6 p-3 uW'>
                   <img src={w6} alt='img' className='img-fluid' />
                 </div>
+              </div>
+              <div className='md-wrap mt-5'>
+                <Swiper
+                  slidesPerView={3}
+                  spaceBetween={250}
+                  pagination={{
+                    clickable: true,
+                  }}
+                  modules={[Pagination]}
+                  className='mySwiper'
+                >
+                  <SwiperSlide>
+                    <img src={w1} alt='img' />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src={w2} alt='img' />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src={w3} alt='img' />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src={w4} alt='img' />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src={w5} alt='img' />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src={w6} alt='img' />
+                  </SwiperSlide>
+                </Swiper>
               </div>
             </div>
           </div>

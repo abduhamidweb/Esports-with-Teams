@@ -152,6 +152,33 @@
       margin: 40px auto;
     }
   }
+  .left__text {
+    max-width: 453px;
+    text-align: end;
+    margin: auto;
+    .title {
+      font-family: 'Cairo';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 94px;
+      /* identical to box height */
+      /* DarkPurple */
+      color: #11142d;
+    }
+    .description {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      text-align: center;
+      font-size: 16px;
+      line-height: 22px;
+
+      /* DarkPurple */
+
+      color: #11142d;
+    }
+  }
 }
 @media only screen and (max-width: 768px) {
   .game__title__name {
@@ -166,5 +193,43 @@
     max-width: 400px !important;
     font-size: 20px !important;
     margin-top: 30px;
+  }
+  .left__text {
+    max-width: 453px;
+    text-align: end;
+    margin: auto;
+    .title {
+      font-family: 'Cairo';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 94px;
+      /* identical to box height */
+      /* DarkPurple */
+      color: #11142d;
+    }
+    .description {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      text-align: center;
+      font-size: 16px;
+      line-height: 22px;
+
+      /* DarkPurple */
+
+      color: #11142d;
+    }
+  }
+}
+.md-wrap {
+  display: none;
+}
+@media only screen and (max-width: 576px) {
+  .uWrap {
+    display: none;
+  }
+  .md-wrap {
+    display: block;
   }
 }
