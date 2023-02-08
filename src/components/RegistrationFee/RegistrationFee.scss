@@ -1,3 +1,133 @@
-.RegistrationFee{
-    margin-top: 50px;
+.RegistrationFee {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  &__title {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 94px;
+    /* identical to box height */
+
+    /* DarkPurple */
+
+    color: #11142d;
+  }
+  .RegistrationFee__contain {
+    padding-top: 30px;
+    width: 100%;
+    .btn {
+      box-shadow: none;
+    }
+    .card {
+      background: transparent;
+      transition: all 0.4s ease;
+      box-shadow: none;
+      z-index: 11;
+      .card-body {
+        padding: 4px 6px;
+        .card-title {
+          font-family: 'Cairo';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 37px;
+
+          /* DarkPurple */
+
+          color: #11142d;
+        }
+        .card-ganer {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          /* identical to box height */
+          position: relative;
+          top: -11px;
+          /* Primary */
+
+          color: #6c5dd3;
+        }
+        .card-info {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 10px;
+          .card-star {
+            .star {
+              font-family: 'Open Sans';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 25px;
+              /* identical to box height */
+
+              /* Orange */
+
+              color: #4c69ff;
+            }
+            .card-grad {
+              font-family: 'Open Sans';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 25px;
+              /* identical to box height */
+
+              /* Orange */
+
+              color: #4c69ff;
+              margin-left: 10px;
+            }
+          }
+          .card-price {
+            .price {
+              font-family: 'Cairo';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 37px;
+              text-align: right;
+
+              /* DarkPurple */
+
+              color: #11142d;
+            }
+            .discount {
+              font-family: 'Cairo';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 16px;
+              line-height: 30px;
+              /* identical to box height */
+
+              text-align: right;
+              text-decoration-line: line-through;
+
+              /* Grey-01 */
+
+              color: #aaaaaa;
+              position: relative;
+              right: -14px;
+            }
+          }
+        }
+      }
+      &:hover {
+        transform: translateY(-10px);
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .RegistrationFee__contain {
+    &__wrap {
+      .col-lg-2 {
+        width: 240px !important;
+        width: 100%;
+      }
+    }
+  }
 }
