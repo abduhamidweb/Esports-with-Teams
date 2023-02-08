@@ -7,6 +7,7 @@
     position: absolute;
     top: 65px;
     left: 76px;
+    z-index: 0;
   }
   .left__text {
     max-width: 453px;
@@ -17,9 +18,7 @@
       font-size: 50px;
       line-height: 94px;
       /* identical to box height */
-
       /* DarkPurple */
-
       color: #11142d;
     }
     .description {
@@ -123,7 +122,16 @@
       }
     }
   }
+
+  .uW {
+    overflow: hidden;
+    text-align: center;
+    img {
+      cursor: pointer;
+    }
+  }
 }
+
 @media only screen and (max-width: 1240px) {
   .upcom {
     .game__wrap {
@@ -131,27 +139,32 @@
         text-align: center;
         width: 100%;
         .game__title {
-            margin-top: 20px;
+          margin-top: 20px;
           display: flex;
           justify-content: center;
         }
       }
     }
   }
-}
-@media only screen and (max-width: 768px){
-    .game__title__name{
-       h5{
-         font-size: 20px !important;
-       }
-       span{
-        font-size: 14px;
-       }
-
+  .img__wrap {
+    width: 100%;
+    .uWrap {
+      margin: 40px auto;
     }
-       .btn-feauter{
-        max-width: 400px !important;
-        font-size: 20px !important;
-        margin-top: 30px;
-       }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .game__title__name {
+    h5 {
+      font-size: 20px !important;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+  .btn-feauter {
+    max-width: 400px !important;
+    font-size: 20px !important;
+    margin-top: 30px;
+  }
 }
