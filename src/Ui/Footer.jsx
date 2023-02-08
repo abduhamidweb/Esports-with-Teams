@@ -45,7 +45,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="right-wrap d-flex">
-              <ul className="footer-list">
+              <ul className="footer-list footer-listOrder1">
                 <li className="footer-item">
                   <a href="#" className="footer-link link2">
                     Games Categories
@@ -87,7 +87,7 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-              <ul className="footer-list">
+              <ul className="footer-list footer-listOrder2">
                 <li className="footer-item">
                   <a href="#" className="footer-link link2">
                     Quick Links
