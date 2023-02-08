@@ -1,3 +1,7 @@
+footer{
+    border-top: 1px solid  #0000003D;
+
+}
 .wrapper {
     display: flex;
     justify-content: space-between;
