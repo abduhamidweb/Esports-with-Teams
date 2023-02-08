@@ -124,7 +124,7 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-              <ul className="footer-list">
+              <ul className="footer-list footer-list2">
                 <li className="footer-item">
                   <a href="#" className="footer-link link2">
                     Our company
