@@ -1,11 +1,15 @@
-import React from 'react';
-
+import React from 'react'
+import './RegistrationFee.scss'
 const RegistrationFee = () => {
-    return (
-      <>
-        <h2>Registration Fee men boshladim dev branchida</h2>
-      </>
-    )
-};
+  return (
+    <>
+      <section className='RegistrationFee'>
+        <div className='container'>
+          <h2 className='fs-2'>Registration Fee</h2>
+        </div>
+      </section>
+    </>
+  )
+}
 
-export default RegistrationFee;
+export default RegistrationFee
