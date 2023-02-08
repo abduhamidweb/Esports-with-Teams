@@ -222,8 +222,25 @@ footer i {
 
     .right-wrap {
         width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 150px;
     }
 
+    .footer-list {
+        text-align: center;
+    }
+
+    .footer-list2 {
+        width: 70%;
+        /* background-color: red; */
+    }
+
+    .footer-iframe {
+        max-width: 650px;
+        width: 100%;
+        height: 350px;
+    }
 }
 
 @media (max-width: 740px) {
@@ -244,4 +261,14 @@ footer i {
     .footer-logo {
         flex-direction: column;
     }
+}
+
+@media (max-width: 480px) {
+    .right-wrap {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0px;
+    }
+
 }
