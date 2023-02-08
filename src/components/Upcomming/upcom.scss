@@ -1,0 +1,157 @@
+.upcom {
+  position: relative;
+  padding-top: 84px;
+  padding-bottom: 47px;
+  background: #f2f0fe;
+  .upcomImg {
+    position: absolute;
+    top: 65px;
+    left: 76px;
+  }
+  .left__text {
+    max-width: 453px;
+    .title {
+      font-family: 'Cairo';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 94px;
+      /* identical to box height */
+
+      /* DarkPurple */
+
+      color: #11142d;
+    }
+    .description {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+
+      /* DarkPurple */
+
+      color: #11142d;
+    }
+  }
+  .game__wrap {
+    background: #ffffff;
+    margin-top: 60px;
+    /* Shadow-02 */
+    padding: 30px 44px;
+
+    box-shadow: 0px 25px 33px rgba(108, 93, 211, 0.25);
+    border-radius: 14px;
+    .game__wrap__text {
+      .game__title {
+        align-items: center;
+        display: flex;
+        &__rounded {
+          display: inline-block;
+          width: 44px;
+          height: 44px;
+          background: #4c69ff;
+          border-radius: 50%;
+        }
+        &__name {
+          margin-left: 28px;
+          h5 {
+            font-family: 'Cairo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 56px;
+
+            /* DarkPurple */
+
+            color: #11142d;
+          }
+          span {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            /* identical to box height */
+
+            /* Primary */
+
+            color: #6c5dd3;
+          }
+        }
+      }
+      .game__name {
+        margin-top: 35px;
+        &__title {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 24px;
+          /* identical to box height, or 133% */
+
+          /* DarkPurple */
+
+          color: #11142d;
+        }
+        &__description {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          /* or 143% */
+
+          /* DarkPurple */
+
+          color: #11142d;
+        }
+        .btn-feauter {
+          margin-top: 50px;
+          background: #99ce17;
+          box-shadow: 3px 20px 30px rgba(153, 206, 23, 0.83);
+          border-radius: 14px;
+          max-width: 90%;
+          width: 100%;
+          font-family: 'Cairo';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 56px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .upcom {
+    .game__wrap {
+      .col-lg-6 {
+        text-align: center;
+        width: 100%;
+        .game__title {
+            margin-top: 20px;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px){
+    .game__title__name{
+       h5{
+         font-size: 20px !important;
+       }
+       span{
+        font-size: 14px;
+       }
+
+    }
+       .btn-feauter{
+        max-width: 400px !important;
+        font-size: 20px !important;
+        margin-top: 30px;
+       }
+}
