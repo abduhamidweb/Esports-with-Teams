@@ -129,12 +129,9 @@ const Footer = () => {
                   <a href="#" className="footer-link">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23955.37413960941!2d69.1989805316162!3d41.3649204360651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8e78abb7cc99%3A0xe4c4a6d6f6fe359c!2z0JzQsNGF0LDQu9C70Y8g0JHQtdGI0LrRg9GA0LPQvtC9!5e0!3m2!1sru!2s!4v1675784477670!5m2!1sru!2s"
-                      width="600"
-                      height="450"
-                      style="border:0;"
-                      allowfullscreen=""
+                      className="footer-iframe"
                       loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade"
+                      referrerPolicy="no-referrer-when-downgrade"
                     ></iframe>
                   </a>
                 </li>
