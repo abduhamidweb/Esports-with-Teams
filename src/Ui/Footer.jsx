@@ -1,48 +1,53 @@
 import React from "react";
-
+import "./Footer.css";
+import FooterLogo from "../images/footer-lg.png"
 const Footer = () => {
   return (
     <>
       <footer>
         <div className="container">
-          <div className="wrapper">
+          <div className="wrapper d-flex justify-content-between">
             <div className="left-wrap">
-              <div className="footer-logo">
-                <img src="" alt="footer-logo" />
-                <span>
-                  <h4> Esports</h4>
-                  <h6>Multiplayer Games</h6>
+              <div className="footer-logo d-flex">
+                <img
+                  src={FooterLogo}
+                  alt="footer-logo"
+                  className="footer-logo-img"
+                />
+                <span className="footer-logo-body text-dark">
+                  <h4 className="footer-logo-title"> Esports</h4>
+                  <h6 className="footer-logo-deck">Multiplayer Games</h6>
                 </span>
               </div>
-              <p>
+              <p className="left-wrap-deck">
                 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud
               </p>
-              <h3>Follow Us</h3>
+              <h3 className="fallow-title">Follow Us</h3>
 
               <div className="footer-links">
                 <a href="#">
-                  <i className="bi bi-facebook"></i>
+                  <i className="bi bi-facebook "></i>
                 </a>
                 <a href="#">
-                  <i className="bi bi-youtube"></i>
+                  <i className="bi bi-youtube youtube"></i>
                 </a>
                 <a href="#">
-                  <i className="bi bi-twitter"></i>
+                  <i className="bi bi-twitter twitter"></i>
                 </a>
                 <a href="#">
-                  <i className="bi bi-linkedin"></i>
+                  <i className="bi bi-linkedin linkedin"></i>
                 </a>
                 <a href="#">
-                  <i className="bi bi-instagram"></i>
+                  <i className="bi bi-instagram instagram"></i>
                 </a>
               </div>
             </div>
-            <div className="right-wrap">
+            <div className="right-wrap d-flex">
               <ul className="footer-list">
                 <li className="footer-item">
-                  <a href="#" className="footer-link">
+                  <a href="#" className="footer-link link2">
                     Games Categories
                   </a>
                 </li>
@@ -77,14 +82,14 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="footer-item">
-                  <a href="#" className="footer-link">
-                    View more{" "}
+                  <a href="#" className="footer-link link3">
+                    View more <i class="fa-solid fa-chevron-right"></i>
                   </a>
                 </li>
               </ul>
               <ul className="footer-list">
                 <li className="footer-item">
-                  <a href="#" className="footer-link">
+                  <a href="#" className="footer-link link2">
                     Quick Links
                   </a>
                 </li>
@@ -121,7 +126,7 @@ const Footer = () => {
               </ul>
               <ul className="footer-list">
                 <li className="footer-item">
-                  <a href="#" className="footer-link">
+                  <a href="#" className="footer-link link2">
                     Our company
                   </a>
                 </li>
@@ -140,9 +145,9 @@ const Footer = () => {
                     <span>
                       <i className="bi bi-geo-alt"></i>
                     </span>
-                    <a href="#">
+                    <p>
                       Address Line 1, Address Line 2, Lucknow, India - 226028
-                    </a>
+                    </p>
                   </div>
                 </li>
                 <li className="footer-item">
@@ -150,7 +155,7 @@ const Footer = () => {
                     <span>
                       <i className="bi bi-telephone"></i>
                     </span>
-                    <a href="#">+91 5224527336</a>
+                    <p>+91 5224527336</p>
                   </div>
                 </li>
                 <li className="footer-item">
@@ -158,7 +163,7 @@ const Footer = () => {
                     <span>
                       <i className="bi bi-envelope"></i>
                     </span>
-                    <a href="#">fourangerygod@gmail.com</a>
+                    <p>fourangerygod@gmail.com</p>
                   </div>
                 </li>
               </ul>
