@@ -1,0 +1,33 @@
+.EABtn {
+  background: #ff754c;
+  box-shadow: 0px 25px 33px #ff754c;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 34px;
+  color: #ffffff;
+  border: none;
+  width: 177px;
+  height: 59.74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+.EABtn:hover {
+  background: #ff754c;
+  box-shadow: 0px 15px 20px #ff754c;
+  color: #ffffff;
+}
+.EABtn:active {
+  background: #ff754c !important;
+  box-shadow: none;
+  color: #ffffff !important;
+}
+
+@media only screen and (max-width:597px){
+.EABtn{
+margin: 15px 0 15px 0;
+}
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1620px !important;
+  width: 100% !important;
+}
+
+
+
+/*  ==============  papkaga kirib oling  ===========    */
+/*  ==============  git branch -M  name  ===========    */
+/*  ==============  git add .   ===========    */
+/*  ==============  git commit -m "first commit"   ===========    */
+/*  ==============  git pull origin master   ===========    */
+/*  ==============  git push origin o'zingizni branch nomini kiriting   ===========    */
