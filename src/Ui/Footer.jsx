@@ -1,48 +1,53 @@
 import React from "react";
-
+import "./Footer.css";
+import FooterLogo from "../images/footer-lg.png"
 const Footer = () => {
   return (
     <>
       <footer>
         <div className="container">
-          <div className="wrapper">
+          <div className="wrapper d-flex justify-content-between">
             <div className="left-wrap">
-              <div className="footer-logo">
-                <img src="" alt="footer-logo" />
-                <span>
-                  <h4> Esports</h4>
-                  <h6>Multiplayer Games</h6>
+              <div className="footer-logo d-flex">
+                <img
+                  src={FooterLogo}
+                  alt="footer-logo"
+                  className="footer-logo-img"
+                />
+                <span className="footer-logo-body text-dark">
+                  <h4 className="footer-logo-title"> Esports</h4>
+                  <h6 className="footer-logo-deck">Multiplayer Games</h6>
                 </span>
               </div>
-              <p>
+              <p className="left-wrap-deck">
                 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud
               </p>
-              <h3>Follow Us</h3>
+              <h3 className="fallow-title">Follow Us</h3>
 
               <div className="footer-links">
                 <a href="#">
-                  <i class="bi bi-facebook"></i>
+                  <i className="bi bi-facebook "></i>
                 </a>
                 <a href="#">
-                  <i class="bi bi-youtube"></i>
+                  <i className="bi bi-youtube youtube"></i>
                 </a>
                 <a href="#">
-                  <i class="bi bi-twitter"></i>
+                  <i className="bi bi-twitter twitter"></i>
                 </a>
                 <a href="#">
-                  <i class="bi bi-linkedin"></i>
+                  <i className="bi bi-linkedin linkedin"></i>
                 </a>
                 <a href="#">
-                  <i class="bi bi-instagram"></i>
+                  <i className="bi bi-instagram instagram"></i>
                 </a>
               </div>
             </div>
-            <div className="right-wrap">
+            <div className="right-wrap d-flex">
               <ul className="footer-list">
                 <li className="footer-item">
-                  <a href="#" className="footer-link">
+                  <a href="#" className="footer-link link2">
                     Games Categories
                   </a>
                 </li>
@@ -77,14 +82,14 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="footer-item">
-                  <a href="#" className="footer-link">
-                    View more{" "}
+                  <a href="#" className="footer-link link3">
+                    View more <i class="fa-solid fa-chevron-right"></i>
                   </a>
                 </li>
               </ul>
               <ul className="footer-list">
                 <li className="footer-item">
-                  <a href="#" className="footer-link">
+                  <a href="#" className="footer-link link2">
                     Quick Links
                   </a>
                 </li>
@@ -121,7 +126,7 @@ const Footer = () => {
               </ul>
               <ul className="footer-list">
                 <li className="footer-item">
-                  <a href="#" className="footer-link">
+                  <a href="#" className="footer-link link2">
                     Our company
                   </a>
                 </li>
@@ -129,39 +134,36 @@ const Footer = () => {
                   <a href="#" className="footer-link">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23955.37413960941!2d69.1989805316162!3d41.3649204360651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8e78abb7cc99%3A0xe4c4a6d6f6fe359c!2z0JzQsNGF0LDQu9C70Y8g0JHQtdGI0LrRg9GA0LPQvtC9!5e0!3m2!1sru!2s!4v1675784477670!5m2!1sru!2s"
-                      width="600"
-                      height="450"
-                      style="border:0;"
-                      allowfullscreen=""
+                      className="footer-iframe"
                       loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade"
+                      referrerPolicy="no-referrer-when-downgrade"
                     ></iframe>
                   </a>
                 </li>
                 <li className="footer-item">
                   <div className="footer-location">
                     <span>
-                      <i class="bi bi-geo-alt"></i>
+                      <i className="bi bi-geo-alt"></i>
                     </span>
-                    <a href="#">
+                    <p>
                       Address Line 1, Address Line 2, Lucknow, India - 226028
-                    </a>
+                    </p>
                   </div>
                 </li>
                 <li className="footer-item">
                   <div className="footer-call">
                     <span>
-                      <i class="bi bi-telephone"></i>
+                      <i className="bi bi-telephone"></i>
                     </span>
-                    <a href="#">+91 5224527336</a>
+                    <p>+91 5224527336</p>
                   </div>
                 </li>
                 <li className="footer-item">
                   <div className="footer-mail">
                     <span>
-                      <i class="bi bi-envelope"></i>
+                      <i className="bi bi-envelope"></i>
                     </span>
-                    <a href="#">fourangerygod@gmail.com</a>
+                    <p>fourangerygod@gmail.com</p>
                   </div>
                 </li>
               </ul>
@@ -173,8 +175,6 @@ const Footer = () => {
   );
 };
 
-// location
-//  telefon
-//  mail
+
 
 export default Footer;
